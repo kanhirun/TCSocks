@@ -1,6 +1,11 @@
 # TCSocks
 Single Round Match 207 Round 1 - Division I, Level Two
 
+## Dependencies
+
+`$ python runtests.py` does not support python <=2.6 due to `argparse`
+dependency.
+
 
 ## Problem Statement
 
