@@ -7,6 +7,10 @@ from tcsocks import TCSocks
 class TestTCSocks(TestCase):
 
   def testGetProfit1(self):
+    """
+    You have no competitors. Your best path is 0 -> 2 -> 1 -> 0.
+    You spend 50 + 10 + 0 units, and earn 200 units. So the total income is 140.
+    """
     tcSocks     = TCSocks()
     state       = [0, 2, 1, 0]
     money       = [0, 100, 100, 100]
